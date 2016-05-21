@@ -31,8 +31,8 @@
                     </rtc:propertyIsBetween>
                 </rtc:ConstraintUnitType>
             </rtc:Constraint>
-            <rtcDoc:Doc rtcDoc:constraint="-0.2&lt;=x&lt;=0.2" rtcDoc:range="" rtcDoc:unit="m/s" rtcDoc:description="直進速度" rtcDoc:defaultValue="0.0" rtcDoc:dataname="forward_velocity"/>
-            <rtcExt:Properties rtcExt:value="slider.0.04" rtcExt:name="__widget__"/>
+            <rtcDoc:Doc rtcDoc:constraint="-0.20&lt;=x&lt;=0.20" rtcDoc:range="" rtcDoc:unit="m/s" rtcDoc:description="直進速度" rtcDoc:defaultValue="0.0" rtcDoc:dataname="forward_velocity"/>
+            <rtcExt:Properties rtcExt:value="slider.0.02" rtcExt:name="__widget__"/>
         </rtc:Configuration>
         <rtc:Configuration xsi:type="rtcExt:configuration_ext" rtcExt:variableName="" rtc:unit="rad/s" rtc:defaultValue="0.0" rtc:type="double" rtc:name="rotate_velocity">
             <rtc:Constraint>

@@ -48,10 +48,10 @@ raspimousesamplepy_spec = ["implementation_id", "RasPiMouseSamplePy",
 		 "conf.default.forward_velocity", "0.0",
 		 "conf.default.rotate_velocity", "0.0",
 		 "conf.default.stop_distance", "300",
-		 "conf.__widget__.forward_velocity", "slider.0.04",
+		 "conf.__widget__.forward_velocity", "slider.0.02",
 		 "conf.__widget__.rotate_velocity", "slider.0.2",
 		 "conf.__widget__.stop_distance", "text",
-		 "conf.__constraints__.forward_velocity", "-0.2<=x<=0.2",
+		 "conf.__constraints__.forward_velocity", "-0.20<=x<=0.20",
 		 "conf.__constraints__.rotate_velocity", "-1.6<=x<=1.6",
 		 ""]
 # </rtc-template>
