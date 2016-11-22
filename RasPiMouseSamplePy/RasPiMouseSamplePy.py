@@ -15,7 +15,7 @@
 
 """
 import sys
-import time
+
 sys.path.append(".")
 
 # Import RTM module
@@ -348,7 +348,7 @@ def MyModuleInit(manager):
     RasPiMouseSamplePyInit(manager)
 
     # Create a component
-    comp = manager.createComponent("RasPiMouseSamplePy")
+    manager.createComponent("RasPiMouseSamplePy")
 
 def main():
 	mgr = OpenRTM_aist.Manager.init(sys.argv)
