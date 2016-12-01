@@ -45,7 +45,7 @@ raspimousesamplepy_spec = ["implementation_id", "RasPiMouseSamplePy",
 		 "max_instance",      "1", 
 		 "language",          "Python", 
 		 "lang_type",         "SCRIPT",
-		 "conf.default.forward_velocity", "0.0",
+		 "conf.default.forward_velocity", "0.00",
 		 "conf.default.rotate_velocity", "0.0",
 		 "conf.default.stop_distance", "300",
 		 "conf.__widget__.forward_velocity", "slider.0.02",
@@ -105,7 +105,7 @@ class RasPiMouseSamplePy(OpenRTM_aist.DataFlowComponentBase):
 		 - Unit: m/s
 		 - Constraint: -0.2<=x<=0.2
 		"""
-		self._forward_velocity = [0.0]
+		self._forward_velocity = [0.00]
 		"""
 		回転速度
 		 - Name: rotate_velocity rotate_velocity
